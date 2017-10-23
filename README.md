@@ -54,4 +54,20 @@ Create an s3 bucket
 
 Spin an instance in RDS
 
+Connet your RDS instance to your MySql workbench.
+
+Set rules in SNS to receive aan email about upload in an S3 bucket
+
+Set ELB for this you need two ec2 instances so that you can balance requests accordingly
+
+Set up cloudwatch for monitoring services.
+
+
+
+
+
+
+
+
+
 
