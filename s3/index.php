@@ -367,9 +367,7 @@ use Aws\S3\Exception\S3Exception;
             print '<tr><td colspan="6" class="text-danger">' . $list_object_error . '</td></tr>';
         }
         if ($bucket_lifecycle_error != null) {
-            // print '<li class="list-group-item text-danger">' . $bucket_lifecycle_error . '</li>';
-            // un prettified aws error-code, ignore noSuchLifeCyclePolicy exception
-            // --susheel 04/17/2017
+            
         }
         print '</tbody>
               </table>
