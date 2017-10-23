@@ -56,11 +56,29 @@ Spin an instance in RDS
 
 Connet your RDS instance to your MySql workbench.
 
-Set rules in SNS to receive aan email about upload in an S3 bucket
+Set rules in SNS to receive aan email about upload in an S3 bucket.
+
+Set up cloud front
 
 Set ELB for this you need two ec2 instances so that you can balance requests accordingly
 
 Set up cloudwatch for monitoring services.
+
+List of Softwares to download
+
+Download PhpStorm 
+
+Download MySql Workbench
+
+Make sure you have an AWS account
+
+Install an SSH client (e.g. Putty)
+
+How to run project locally
+
+So basically you need to coonet your SSH to Putty and save all your files in a single directory. With your ec2 instance connected to your Putty you have to bring your php page locally.
+After this you need to register a domain and route your traffic from ec2 to registered domain.
+
 
 
 
