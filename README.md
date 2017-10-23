@@ -47,3 +47,11 @@ UPDATED ON- If the user uploads the same file again the details on date and time
 DESCRIPTION- A description about the file is present ( a short information about file)
 
 Pre requisite set up
+
+Spin up an EC2 instance 
+
+Create an s3 bucket
+
+Spin an instance in RDS
+
+
