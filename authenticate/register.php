@@ -10,12 +10,7 @@ if(isset($_POST["inputLegit3"])){
         return htmlspecialchars($input, ENT_QUOTES);
     }
 
-    $accountid = sanitizeParameter($_POST["inputAccount3"]);
-    $company = sanitizeParameter($_POST["inputCompany3"]);
-    $contact = sanitizeParameter($_POST["inputContactName3"]);
-    $phone = sanitizeParameter($_POST["inputContactNumber3"]);
-    $email = sanitizeParameter($_POST["inputEmail3"]);
-    $username = sanitizeParameter($_POST["inputUsername3"]);
+  
     $password = sanitizeParameter($_POST["inputPassword3"]);
     $confirmpassword = sanitizeParameter($_POST["inputConfirmPassword3"]);
     print '<p class="text-danger">Not just yet, wheel is still spinning</p>';
@@ -44,43 +39,10 @@ if(isset($_POST["inputLegit3"])){
                                title="AWS Account ID"
                                placeholder="Account Id" value="<?= _ACCOUNT_ID ?>" required readonly>
                     </div>
+                
+                  </div>
                 </div>
-                <div class="form-group">
-                    <label for="inputCompany3" class="col-sm-4 control-label">Company Name <sup
-                                class="text-danger">*</sup></label>
-                    <div class="col-sm-8">
-                        <input type="text" class="form-control" name="inputCompany3" id="inputCompany3"
-                               title="Your Company Name"
-                               placeholder="Your Company Name" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputContactName3" class="col-sm-4 control-label">Contact Name <sup
-                                class="text-danger">*</sup></label>
-                    <div class="col-sm-8">
-                        <input type="text" class="form-control" name="inputContactName3" id="inputContactName3"
-                               title="Contact Person name"
-                               placeholder="Your Name" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputContactNumber3" class="col-sm-4 control-label">Contact Number</label>
-                    <div class="col-sm-8">
-                        <input type="tel" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}"
-                               title="10 digit phone number" class="form-control" name="inputContactNumber3"
-                               id="inputContactNumber3"
-                               placeholder="Your Contact Number">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-4 control-label">Email Address <sup
-                                class="text-danger">*</sup></label>
-                    <div class="col-sm-8">
-                        <input type="email" class="form-control" name="inputEmail3" id="inputEmail3"
-                               title="Contact Person Email Address"
-                               placeholder="you@yourcompany.tld"
-                               required>
-                    </div>
+                
                 </div>
                 <div class="form-group">
                     <label for="inputUsername3" class="col-sm-4 control-label">Username <sup
