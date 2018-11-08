@@ -10,6 +10,7 @@ ISA- DIVYANKITHA URS
 STUDENT NAME- Tarun Shetty
 
 Linked in - https://www.linkedin.com/in/tarun-shetty-273952140/
+
 Project instutions and features
 
 The web application that is developed can be used to upload files which are less than 10mb into the S3 bucket which is created in the aws console. The user has to provide his credentials i.e. username, password only then he can login into the portal. If a registered user forgets his password he will get a new password by clicking on forgot password which generates the user a new password.
@@ -20,63 +21,63 @@ Features List
 
 The list of features which a user can do are.
 
-SIGN IN- User has to get in by providing his centennials.
+* SIGN IN- User has to get in by providing his centennials.
 
-UPLOAD- User can upload a file into a S3 bucket (maximum size is 10mb. 
+* UPLOAD- User can upload a file into a S3 bucket (maximum size is 10mb. 
 
-DELETE- The user can delete the file 
+* DELETE- The user can delete the file 
 
-DOWNLOAD- The user can download the file which is in S3 bucket. 
+* DOWNLOAD- The user can download the file which is in S3 bucket. 
 
-FORGOT PASSWORD- The user gets a new password to his mail.
+* FORGOT PASSWORD- The user gets a new password to his mail.
 
-CREATE FOLDER – The user can create a new folder on the S3 bucket.
+* CREATE FOLDER – The user can create a new folder on the S3 bucket.
 
-PROFILE – Once the user clicks on profile he can change his current password.
+* PROFILE – Once the user clicks on profile he can change his current password.
 
-LOGOUT- The user will be logged out.
+* LOGOUT- The user will be logged out.
 
-There is a table which displays the details of the uploaded file
+* There is a table which displays the details of the uploaded file
 
-USER UPLOADED- The name of the user is displayed.
+* USER UPLOADED- The name of the user is displayed.
 
-UPLOAD ON- The date and time are recorded when the user uploads file.
+* UPLOAD ON- The date and time are recorded when the user uploads file.
 
-UPDATED ON- If the user uploads the same file again the details on date and time are displayed.
+* UPDATED ON- If the user uploads the same file again the details on date and time are displayed.
 
-DESCRIPTION- A description about the file is present ( a short information about file)
+* DESCRIPTION- A description about the file is present ( a short information about file)
 
 Pre requisite set up
 
-Spin up an EC2 instance 
+* Spin up an EC2 instance 
 
-Create an s3 bucket
+* Create an s3 bucket
 
-Spin an instance in RDS
+* Spin an instance in RDS
 
-Connet your RDS instance to your MySql workbench.
+* Connet your RDS instance to your MySql workbench.
 
-Set rules in SNS to receive aan email about upload in an S3 bucket.
+* Set rules in SNS to receive aan email about upload in an S3 bucket.
 
-Set up cloud front
+* Set up cloud front
 
-Set ELB for this you need two ec2 instances so that you can balance requests accordingly
+* Set ELB for this you need two ec2 instances so that you can balance requests accordingly
 
-Set up cloudwatch for monitoring services.
+* Set up cloudwatch for monitoring services.
 
 List of Softwares to download
 
-Download PhpStorm 
+* Download PhpStorm 
 
-Download MySql Workbench
+* Download MySql Workbench
 
-Make sure you have an AWS account
+* Make sure you have an AWS account
 
-Install an SSH client (e.g. Putty)
+* Install an SSH client (e.g. Putty)
 
 How to run project locally
 
-So basically you need to coonet your SSH to Putty and save all your files in a single directory. With your ec2 instance connected to your Putty you have to bring your php page locally.
+So basically you need to SSH into the ec2 instance through Putty and save all your files in a single directory. With your ec2 instance connected to your Putty you have to bring your php page locally.
 After this you need to register a domain and route your traffic from ec2 to registered domain.
 
 
